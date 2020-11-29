@@ -1,17 +1,10 @@
 # SkillFactory-moduleA6.14-Practice
-***
 </br>
-EN
+EN *** The simple game for collecting 10 green random squares on timer using HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
 </br>
-The simple game for collecting 10 green random squares on timer using HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
+IT *** Un gioco semplice della raccolta di 10 quadrati verdi casuali con misurazione del tempo neccessario usando HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
 </br>
-IT
-</br>
-Un gioco semplice della raccolta di 10 quadrati verdi casuali con misurazione del tempo neccessario usando HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
-</br>
-РУ
-</br>
-Простая игра "Собери 10 зеленых случайных квадратов" по таймеру с использованием HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
+РУ *** Простая игра "Собери 10 зеленых случайных квадратов" по таймеру с использованием HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
 </br>
 </br>
 Gaming on-line: https://iufeov.github.io/SkillFactory-moduleA6.14-Practice/
