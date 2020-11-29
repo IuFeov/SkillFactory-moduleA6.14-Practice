@@ -1,4 +1,5 @@
 # SkillFactory-moduleA6.14-Practice
+***
 </br>
 EN
 </br>
@@ -12,4 +13,5 @@ Un gioco semplice della raccolta di 10 quadrati verdi casuali con misurazione de
 </br>
 Простая игра "Собери 10 зеленых случайных квадратов" по таймеру с использованием HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
 </br>
-Gaming on-line: 
+</br>
+Gaming on-line: https://iufeov.github.io/SkillFactory-moduleA6.14-Practice/
