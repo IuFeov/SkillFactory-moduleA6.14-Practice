@@ -7,7 +7,7 @@ IT *** Un gioco semplice della raccolta di 10 quadrati verdi casuali con misuraz
 РУ *** Простая игра "Собери 10 зеленых случайных квадратов" по таймеру с использованием HTML5, CSS3, Bootstrap 4.5, JavaScript and jQuery.
 </br>
 </br>
-<!--NOT adapted for screen width under 320px and NOT tested for screen width over 1440px-->
+---  NOT adapted for screen width under 320px and NOT tested for screen width over 1440px  ---
 </br>
 </br>
 Gaming on-line: https://iufeov.github.io/SkillFactory-moduleA6.14-Practice/
