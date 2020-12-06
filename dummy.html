@@ -1,0 +1,82 @@
+<!--******---MY DUMMY's VERSION---******-->
+<!--NOT tested for screen width under 500px-->
+<!--  css grid version  -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Игра "Собери 10 зеленых квадратов" - my dummy version</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style_d.css">
+	</head>
+	<body>
+        <div class="main-field">
+            <div class="central-field">
+                <h3>собери 10 квадратов</h3>
+            <h4>My dummy's version</h4>
+            <div class="page-wrapper">
+                <!--First Row-->
+                <div class="game-field" id="slot-11"></div>
+                <div class="game-field" id="slot-12"></div>
+                <div class="game-field" id="slot-13"></div>
+                <div class="game-field" id="slot-14"></div>
+                <div class="game-field" id="slot-15"></div>
+                <div class="game-field" id="slot-16"></div>
+                <!--Second Row-->
+                <div class="game-field" id="slot-21"></div>
+                <div class="game-field" id="slot-22"></div>
+                <div class="game-field" id="slot-23"></div>
+                <div class="game-field" id="slot-24"></div>
+                <div class="game-field" id="slot-25"></div>
+                <div class="game-field" id="slot-26"></div>
+                <!--Third Row-->    
+                <div class="game-field" id="slot-31"></div>
+                <div class="game-field" id="slot-32"></div>
+                <div class="game-field" id="slot-33"></div>
+                <div class="game-field" id="slot-34"></div>
+                <div class="game-field" id="slot-35"></div>
+                <div class="game-field" id="slot-36"></div>
+                <!--4th Row-->
+                <div class="game-field" id="slot-41"></div>
+                <div class="game-field" id="slot-42"></div>
+                <div class="game-field" id="slot-43"></div>
+                <div class="game-field" id="slot-44"></div>
+                <div class="game-field" id="slot-45"></div>
+                <div class="game-field" id="slot-46"></div>
+                <!--5th Row-->
+                <div class="game-field" id="slot-51"></div>
+                <div class="game-field" id="slot-52"></div>
+                <div class="game-field" id="slot-53"></div>
+                <div class="game-field" id="slot-54"></div>
+                <div class="game-field" id="slot-55"></div>
+                <div class="game-field" id="slot-56"></div>
+                <!--6th Row-->
+                <div class="game-field" id="slot-61"></div>
+                <div class="game-field" id="slot-62"></div>
+                <div class="game-field" id="slot-63"></div>
+                <div class="game-field" id="slot-64"></div>
+                <div class="game-field" id="slot-65"></div>
+                <div class="game-field" id="slot-66"></div>
+            </div>
+            <div id="win-message" class="d-none">
+                <h4>Вы нашли 10 зелёных квадратов за <span id="total-time-played"></span> секунд</h4>
+                <h4>В течение игры Вы допустили <span id="total-wrong-targets"></span> промахов</h4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <button id="start" class="btn btn-outline-secondary btn-lg btn-block">Стартуем!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--<script src="js/jquery-3.4.1.min.js"></script>-->
+        <!--<script src="js/bootstrap.bundle.min.js"></script>-->
+        <script src="js/utils.js"></script>
+        <script src="js/game_d.js"></script>
+    </body>
+</html>
