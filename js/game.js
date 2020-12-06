@@ -12,6 +12,7 @@ function startGame()  {
   wrongHits = 0;
   firstHitTime = 0;
   $('.game-field').text("");
+  $('.game-field').removeClass("miss");
   $("#win-message").addClass("d-none");
   $(".game-field").removeClass("d-none");
   round();
@@ -33,6 +34,7 @@ function round() {
   // FIXME: надо бы убрать "target" прежде чем искать новый
   $('.game-field').removeClass("target");
   let divSelector = randomDivId();
+  console.log(divSelector);
   $(divSelector).addClass("target");
   // TODO: помечать target текущим номером
   $(divSelector).text(hits+1);
@@ -67,13 +69,8 @@ function handleClick(event) {
   }
 
 function init() {
-  // TODO: заказчик просил отдельную кнопку,
-  //запускающую игру а не просто по загрузке
   $("#start").click(startGame);
   $(".game-field").click(handleClick);
-  $("#button-reload").click(function() {
-  location.reload();
-  });
 }
 
 $(document).ready(init)
